@@ -29,7 +29,7 @@ const Home = () => {
         With an appetite for collaborative design practice, my primary skills
         lie in interaction design and connecting systems with interfaces. You
         will usually find me working with multi-disciplinary teams to create
-        compelling, scalable, and sustainable digital products and experiences.
+        compelling and scalable digital products.
       </P>
       <P>
         If you fancy a chat, please{" "}

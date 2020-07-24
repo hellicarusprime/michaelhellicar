@@ -7,7 +7,7 @@ export const Layout = (props) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.container}>{props.children}</div>
+      <header className={styles.container}>{props.children}</header>
     </>
   )
 }
