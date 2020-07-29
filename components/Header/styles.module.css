@@ -1,6 +1,19 @@
 .logo {
   height: 16px;
   width: 16px;
-  background-color: #333;
+  border-radius: 10px;
+  border: 1px solid rgb(224, 36, 96);
+}
+
+.logo:hover {
+  height: 16px;
+  width: 16px;
   border-radius: 4px;
+  background-color: rgb(224, 36, 96);
+  border: 1px solid rgb(224, 36, 96);
+  transition: all 150ms ease-in;
+}
+
+.wrapper {
+  margin: 32px 0 32px;
 }

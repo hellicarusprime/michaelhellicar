@@ -1,5 +1,11 @@
 import styles from "./styles.module.css"
 
-export const Header = (props) => {
-  return <header className={styles.logo}>{props.children}</header>
+export const Header = () => {
+  return (
+    <header className={styles.wrapper}>
+      <a href="/">
+        <div className={styles.logo}></div>
+      </a>
+    </header>
+  )
 }
