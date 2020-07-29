@@ -3,6 +3,7 @@
   width: 16px;
   border-radius: 10px;
   border: 1px solid rgb(224, 36, 96);
+  display: inline-block;
 }
 
 .logo:hover {
@@ -14,6 +15,18 @@
   transition: all 150ms ease-in;
 }
 
-.wrapper {
-  margin: 32px 0 32px;
+.nav {
+  float: right;
+  font-family: "Inter", sans-serif;
+  color: rgb(224, 36, 96);
+  border-bottom: rgb(224, 36, 96) 1px solid;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+
+.nav:hover {
+  border-bottom: rgb(224, 36, 96) 2px solid;
+  text-decoration: none;
+  padding-bottom: 4px;
+  transition: all 150ms;
 }

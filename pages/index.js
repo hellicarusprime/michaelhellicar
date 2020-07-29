@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>Michael Hellicar</title>
+        <title>Michael Hellicar | Product Design</title>
       </Head>
       <Header />
       <H1>
