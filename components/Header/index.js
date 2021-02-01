@@ -6,6 +6,7 @@ export const Header = () => {
     <header className={styles.wrapper}>
       <Link href="/">
         <a className={styles.logo}></a>
+    </Link>
     </header>
   )
 }
